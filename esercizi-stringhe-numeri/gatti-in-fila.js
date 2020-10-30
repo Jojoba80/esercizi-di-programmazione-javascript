@@ -18,11 +18,13 @@
   http://www.imparareaprogrammare.it
 */
 
-var gatti = 11;
+var gatti = 21;
 var gattiInfila = 5;
-var fileTotali = gatti / gattiInfila;
+
+var fileTotali = Math.ceil(gatti/gattiInfila);
+
 var gattiMancanti = fileTotali * gattiInfila - gatti;
 
-console.log('le file totali sono:' + fileTotali);
+console.log('le file totali sono: ' + fileTotali);
 
-console.log('I gatti mancanti sono:'gattiMancanti);
+console.log('I gatti mancanti sono: ' +gattiMancanti);
